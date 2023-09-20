@@ -26,7 +26,7 @@ def menu():
 </html>
 """
 
-@app.route("/lab1")
+@app.route("/lab1/lab1")
 def lab1():
     return """
 <!doctype html>
@@ -49,16 +49,16 @@ def lab1():
             <h2>Реализованные роуты</h2>
             <ul>
                 <li>
-                    <a href="/lab1/oak" target="_blank" >/lab1/oak - oak.jpg</a>
+                    <a href="/oak.jpg" target="_blank" >oak.jpg - oak.jpg</a>
                 </li>
                 <li>
-                    <a href="/lab1/student" target="_blank" >/lab1/student - logo.png</a>
+                    <a href="/student.png" target="_blank" >student.png - logo.png</a>
                 </li>
                 <li>
-                <a href="/lab1/python" target="_blank" >/lab1/python - python.png</a>
+                <a href="/python.png" target="_blank" >python.png - python.png</a>
                 </li>
                 <li>
-                    <a href="/lab1/knopka" target="_blank" >/lab1/knopka - kot.jpg</a>
+                    <a href="/kot.jpg" target="_blank" >kot.jpg - kot.jpg</a>
                 </li>
             </ul>
         <footer>
@@ -68,7 +68,7 @@ def lab1():
 </html>
 """
 
-@app.route('/lab1/oak')
+@app.route('/lab1/oak.jpg')
 def oak():
     return'''
 <!doctype html>
@@ -77,7 +77,7 @@ def oak():
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
     </head>
      <body>
-     <link rel="stylesheet" href="'''+ url_for('static', filename='lab1.css')+'''">
+     <link rel="stylesheet" href="'''+ url_for('static')+'''">
      <header>
      НГТУ, ФБ, Лабораторная работа 1
      </header>
@@ -97,7 +97,7 @@ def student():
 <html>
      <head>
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
-        <link rel="stylesheet" href="'''+ url_for('static', filename='lab1.css')+'''">
+        <link rel="stylesheet" href="'''+ url_for('static')+'''">
     </head>
      <body>
      <header>
@@ -119,7 +119,7 @@ def python():
 <html>
      <head>
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
-        <link rel="stylesheet" href="'''+ url_for('static', filename='lab1.css')+'''">
+        <link rel="stylesheet" href="'''+ url_for('static')+'''">
     </head>
      <body>
      <header>
