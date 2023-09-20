@@ -171,7 +171,13 @@ def kot():
 @app.route('/lab2/example')
 def example():
     name = 'Salnik Kristina'
-    name = 'Kristinka'
     course = '3 курс'
     group = 'фби-14'
-    return render_template('example.html')
+    fruits = [
+        {'name':'яблоки', 'price': 100},
+        {'name':'груши', 'price': 120},
+        {'name': 'апельсины', 'price':80},
+        {'name': 'мандарины', 'price':95},
+        {'name': 'манго', 'price':312}
+        ]
+    return render_template('example.html', name=name, course=course, group=group, fruits=fruits)
