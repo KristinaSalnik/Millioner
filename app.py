@@ -1,4 +1,4 @@
-from flask import Flask, redirect
+from flask import Flask, redirect, url_for, render_template
 app = Flask(__name__)
 
 @app.route("/")
@@ -49,16 +49,16 @@ def lab1():
             <h2>Реализованные роуты</h2>
             <ul>
                 <li>
-                    <a href="/oak.jpg" target="_blank" >oak.jpg - oak.jpg</a>
+                    <a href="/lab1/oak.jpg" target="_blank" >/lab1/oak.jpg - oak.jpg</a>
                 </li>
                 <li>
-                    <a href="/student.png" target="_blank" >student.png - logo.png</a>
+                    <a href="/lab1/logo.png" target="_blank" >/lab1/logo.png - logo.png</a>
                 </li>
                 <li>
-                <a href="/python.png" target="_blank" >python.png - python.png</a>
+                    <a href="/lab1/python.png" target="_blank" >/lab1/python.png - python.png</a>
                 </li>
                 <li>
-                    <a href="/kot.jpg" target="_blank" >kot.jpg - kot.jpg</a>
+                    <a href="/lab1/kot.jpg" target="_blank" >/lab1/kot.jpg - kot.jpg</a>
                 </li>
             </ul>
         <footer>
@@ -77,7 +77,7 @@ def oak():
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
     </head>
      <body>
-     <link rel="stylesheet" href="'''+ url_for('static')+'''">
+     <link rel="stylesheet" href="'''+ url_for('static', filename="oak.jpg")+'''">
      <header>
      НГТУ, ФБ, Лабораторная работа 1
      </header>
@@ -90,14 +90,14 @@ def oak():
 </html>
 '''
 
-@app.route('/lab1/student')
+@app.route('/lab1/logo.png')
 def student():
     return'''
     <!doctype html>
 <html>
      <head>
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
-        <link rel="stylesheet" href="'''+ url_for('static')+'''">
+        <link rel="stylesheet" href="'''+ url_for('static', filename ="logo.png")+'''">
     </head>
      <body>
      <header>
@@ -112,14 +112,14 @@ def student():
 </html>
 '''
 
-@app.route('/lab1/python')
+@app.route('/lab1/python.png')
 def python():
     return'''
     <!doctype html>
 <html>
      <head>
         <title>Сальник Кристина Андреевна, лабораторная 1</title>
-        <link rel="stylesheet" href="'''+ url_for('static')+'''">
+        <link rel="stylesheet" href="'''+ url_for('static', filename = "python.png")+'''">
     </head>
      <body>
      <header>
@@ -142,8 +142,8 @@ def python():
 </html>
 '''
 
-@app.route('/lab1/kot')
-def knopka():
+@app.route('/lab1/kot.jpg')
+def kot():
     return'''
     <!doctype html>
 <html>
@@ -167,3 +167,7 @@ def knopka():
     </body>
 </html>
 '''
+
+@app.route('/lab2/example')
+def example():
+    return render_template('example.html')
