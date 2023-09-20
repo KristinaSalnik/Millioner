@@ -171,4 +171,7 @@ def kot():
 @app.route('/lab2/example')
 def example():
     name = 'Salnik Kristina'
-    return render_template('example.html', name = name)
+    name = 'Kristinka'
+    course = '3 курс'
+    group = 'фби-14'
+    return render_template('example.html')
