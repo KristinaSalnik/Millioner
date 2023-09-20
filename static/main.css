@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    text-align: right;
+    background-color: bisque;
+}
