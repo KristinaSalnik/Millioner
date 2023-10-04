@@ -18,6 +18,27 @@ def menu():
         <header>
             НГТУ, ФБ, Лабораторная работа 1
         </header>
+        <h2>Реализованные роуты</h2>
+            <ul>
+                <li>
+                    <a href="/lab1/oak.jpg" target="_blank" >/lab1/oak.jpg - oak.jpg</a>
+                </li>
+                <li>
+                    <a href="/lab1/logo.png" target="_blank" >/lab1/logo.png - logo.png</a>
+                </li>
+                <li>
+                    <a href="/lab1/python.png" target="_blank" >/lab1/python.png - python.png</a>
+                </li>
+                <li>
+                    <a href="/lab1/kot.jpg" target="_blank" >/lab1/kot.jpg - kot.jpg</a>
+                </li>
+                <li>
+                    <a href="/lab2/example" target="_blank" >/lab2/example - /lab2/example</a>
+                </li>
+                <li>
+                    <a href="/lab2/" target="_blank" >/lab2/ - /lab2/</a>
+                </li>
+            </ul>
 
         <footer>
             &copy; Кристина Сальник, ФБИ-14, 3 курс, 2023
@@ -46,21 +67,7 @@ def lab1():
             веб-приложений, сознательно предоставляющих лишь самые базовые возможности.
         </header>
           <a href="/menu" target="_blank" >Меню</a>
-            <h2>Реализованные роуты</h2>
-            <ul>
-                <li>
-                    <a href="/lab1/oak.jpg" target="_blank" >/lab1/oak.jpg - oak.jpg</a>
-                </li>
-                <li>
-                    <a href="/lab1/logo.png" target="_blank" >/lab1/logo.png - logo.png</a>
-                </li>
-                <li>
-                    <a href="/lab1/python.png" target="_blank" >/lab1/python.png - python.png</a>
-                </li>
-                <li>
-                    <a href="/lab1/kot.jpg" target="_blank" >/lab1/kot.jpg - kot.jpg</a>
-                </li>
-            </ul>
+            
         <footer>
             &copy; Кристина Сальник, ФБИ-14, 3 курс, 2023
         </footer>
@@ -193,3 +200,7 @@ def example():
         {'name': 'Пушкин А.С.', 'book_name': 'Метель', 'genre': 'драмма', 'num': 389}
     ]
     return render_template('example.html', name=name, course=course, group=group, fruits=fruits, Book=Book)
+
+@app.route('/lab2/')
+def lab2():
+    return render_template('lab2.html')

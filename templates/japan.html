@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block laba2 %}Лабораторная работа 2{% endblock %}
+
+{% block main %}
+    <h1>Япония</h1>
+    <h3>Тори</h3>
+        <img src="{{ url_for('static', filename='japan.jpg') }}" height='200px'> 
+    <div>Ворота тори очень красивые и привлекают туристов. Часто появляются в аниме
+    </div>
+
+    <h3>онсэн</h3>
+        <img src="{{ url_for('static', filename='onsen.jpg') }}" height='200px'> 
+    <div>Горячие источники, любимые не только местными, но и туристами</div>
+
+    <h3>Фудзи</h3>
+        <img src="{{ url_for('static', filename='fudzi.jpg') }}" height='200px'> 
+    <div>Гора Фудзи. Иностранцы ощибочно называют ее Фудзияма. Но яма - это в переводе и есть гора. 
+    Однако местные произносят название как Фудзисан. Это означает, что они относятся к горе почтенно.
+    </div>
+
+    <h3>Сакура</h3>
+    <img src="{{ url_for('static', filename='sakura.jpg') }}" height='200px'> 
+<div>Красиво цветет
+</div>
+
+<h3>Акихабара</h3>
+<img src="{{ url_for('static', filename='akihabara.jpg') }}" height='200px'> 
+<div>Улица в Токио, на которой мечтат побывать каждый любитель аниме.
+</div>
+    {% endblock %}
