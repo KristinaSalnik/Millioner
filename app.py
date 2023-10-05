@@ -18,25 +18,13 @@ def menu():
         <header>
             НГТУ, ФБ, Лабораторная работа 1
         </header>
-        <h2>Реализованные роуты</h2>
+        <h2>Меню</h2>
             <ul>
                 <li>
-                    <a href="/lab1/oak.jpg" target="_blank" >/lab1/oak.jpg - oak.jpg</a>
+                    <a href="/lab1/lab1" target="_blank" >Лабораторная 1</a>
                 </li>
                 <li>
-                    <a href="/lab1/logo.png" target="_blank" >/lab1/logo.png - logo.png</a>
-                </li>
-                <li>
-                    <a href="/lab1/python.png" target="_blank" >/lab1/python.png - python.png</a>
-                </li>
-                <li>
-                    <a href="/lab1/kot.jpg" target="_blank" >/lab1/kot.jpg - kot.jpg</a>
-                </li>
-                <li>
-                    <a href="/lab2/example" target="_blank" >/lab2/example - /lab2/example</a>
-                </li>
-                <li>
-                    <a href="/lab2/" target="_blank" >/lab2/ - /lab2/</a>
+                    <a href="/lab2/" target="_blank" >Лабораторная 2</a>
                 </li>
             </ul>
 
@@ -67,6 +55,22 @@ def lab1():
             веб-приложений, сознательно предоставляющих лишь самые базовые возможности.
         </header>
           <a href="/menu" target="_blank" >Меню</a>
+
+          <h2>Реализованные роуты</h2>
+            <ul>
+                <li>
+                    <a href="/lab1/oak.jpg"> Дуб</a>
+                </li>
+                <li>
+                    <a href="/lab1/logo.png"> Лого</a>
+                </li>
+                <li>
+                    <a href="/lab1/python.png"> python</a>
+                </li>
+                <li>
+                    <a href="/lab1/kot.jpg"> Кот</a>
+                </li>
+            </ul>
             
         <footer>
             &copy; Кристина Сальник, ФБИ-14, 3 курс, 2023
