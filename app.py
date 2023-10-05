@@ -204,3 +204,7 @@ def example():
 @app.route('/lab2/')
 def lab2():
     return render_template('lab2.html')
+
+@app.route('/lab2/japan')
+def cake():
+    return render_template('japan.html')
