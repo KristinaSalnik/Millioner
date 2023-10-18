@@ -1,5 +1,5 @@
 from flask import Blueprint, redirect, url_for, render_template
-lab2 = Blueprint('lab2',__name__)
+lab2 = Blueprint('lab2', __name__)
 
 
 @lab2.route('/lab2/example')
@@ -30,10 +30,11 @@ def example():
 
 
 @lab2.route('/lab2/')
-def lab2():
+def lab():
     return render_template('lab2.html')
 
 
 @lab2.route('/lab2/japan')
 def cake():
     return render_template('japan.html')
+
