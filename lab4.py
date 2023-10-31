@@ -31,3 +31,33 @@ def login():
     else: 
         error = 'Неверный логин и/или пароль' 
         return render_template('login.html', error=error, username=username, password=password) 
+    
+
+@lab4.route('/lab4/hld', methods=['GET', 'POST'])
+def hld():
+    if request.method == 'GET':
+        return render_template('hld.html')
+    
+    temperature = request.form.get('temperature')
+    error = ''
+    message = ''  # Начальное значение для переменной message
+    snowflakes = ''  # Начальное значение для переменной snowflakes
+    
+    if temperature is None or temperature == '':
+        error = 'Ошибка: не задана температура'
+    elif int(temperature) < -12:
+        error = 'Не удалось установить температуру — слишком низкое значение'
+    elif int(temperature) > -1:
+        error = 'Не удалось установить температуру — слишком высокое значение'
+    elif -12 <= int(temperature) <= -9:
+        message = f'Установлена температура: {temperature}°C'
+        snowflakes = '❄️❄️❄️'
+    elif -8 <= int(temperature) <= -5:
+        message = f'Установлена температура: {temperature}°C'
+        snowflakes = '❄️❄️'
+    elif -4 <= int(temperature) <= -1:
+        message = f'Установлена температура: {temperature}°C'
+        snowflakes = '❄️'
+    
+    return render_template('hld.html', error=error, temperature=temperature, message=message, snowflakes=snowflakes)
+
