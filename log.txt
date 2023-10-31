@@ -1,95 +1,41 @@
-commit a5edc9ed1ea7d5d54645b4dd5026c4c333ca8f0a
+commit 674018e8b83086bf86c2a8b1d9d6e2835b545881
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 4 16:51:41 2023 +0700
+Date:   Wed Oct 18 18:31:11 2023 +0700
 
-    добавила коммит в лаб2
+    Железнодорожный билет
 
-commit 0b1a554fc0e7bee66dc64ce8027c9dff02f7e5c1
+commit bf68a894721f9dcceb5e2a10b9605f1e01889e19
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 4 16:42:35 2023 +0700
+Date:   Wed Oct 18 18:21:11 2023 +0700
 
-    добавление ссылки
+    Заказ напитка
 
-commit d594979d56053c6d97fbebaaf02a1a9ed648ec25
+commit 31db0577f9fd36bf7f5a44ff98ed9d9a6c5e0fef
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 19:02:59 2023 +0700
+Date:   Wed Oct 18 17:35:42 2023 +0700
 
-    «Книги
+    Валидация
 
-commit 61aca642f567a034f5cbdf7c392fcf8bfa0d4f35
+commit dff3c05ce1dec20f24dd327ae4ba3d47f8e495f3
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 18:36:55 2023 +0700
+Date:   Wed Oct 18 01:16:04 2023 +0700
 
-    Цикл в шаблоне
+    почти доделала валидацию
 
-commit 9f3e3ba736615ca22ecdb46b6acfbd7539e4b44b
+commit ba80f2482ca057020641836219597791d44967a7
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 18:07:53 2023 +0700
+Date:   Wed Oct 18 01:02:22 2023 +0700
 
-    Условия в шаблоне
+    Корректировка пола
 
-commit 06a56b701842808b37305b4e2264ba6e0a189644
+commit 415c9196e9b7097a713de70ae4be02c10f474e3e
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 17:33:00 2023 +0700
+Date:   Wed Oct 18 00:59:29 2023 +0700
 
-    Подключение стилей
+    Форма
 
-commit 0ec32f77931b4706ab22f43df4fede08de56a136
+commit 544cacb7585fa4a96bbc9688ab6346dbc2306253
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 17:19:25 2023 +0700
+Date:   Wed Oct 18 00:29:41 2023 +0700
 
-    Выражения
-
-commit 5699e4eba69c0a273149ee811a18a39a63341746
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 17:13:57 2023 +0700
-
-    Имя студента
-
-commit 8fd54a53f692c6728fa8338cab9268814c96d168
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 17:06:35 2023 +0700
-
-    Заготовка шаблона
-
-commit 833a4ccfb89d7709402e0af22cb9d2d4ae60fc34
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 12:25:26 2023 +0700
-
-    pycache не сохранилось в прошлом комите
-
-commit 608217c4c6f4dd47bae15c96323caf5a2fb210e1
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 12:23:49 2023 +0700
-
-    ничего не работает не могу понять почему
-
-commit 0660f50ab80d40bac55ece8d1306ca5b3bffc975
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 01:25:57 2023 +0700
-
-    роуты
-
-commit a4592a64726f7353a811c1c7587ac1f8787a2d78
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 20 00:42:36 2023 +0700
-
-    пеернаправление
-
-commit aa29d4b2d4e93b954ea1f817ed2770473ebfde01
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 6 18:48:02 2023 +0700
-
-    dobavila text
-
-commit b7f949360a2331edcbeb899a74307c534a693b35
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 6 18:13:21 2023 +0700
-
-    gitignore yes
-
-commit 6ed0e21082f27426eeabb4a8ab7e692886904720
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Sep 6 17:53:41 2023 +0700
-
-    laba 1
+    Заготовка к третьей лабораторной работе
