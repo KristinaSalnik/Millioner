@@ -1,41 +1,35 @@
-commit 674018e8b83086bf86c2a8b1d9d6e2835b545881
+commit 160db04371db2604ec371090320c315b33e08962
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 18:31:11 2023 +0700
+Date:   Tue Oct 31 23:36:30 2023 +0700
 
-    Железнодорожный билет
+    Фон и размер и цвет текста
 
-commit bf68a894721f9dcceb5e2a10b9605f1e01889e19
+commit 7d7d2f14c4cfa19abf7474dc51aafba7bd9249d5
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 18:21:11 2023 +0700
+Date:   Tue Oct 31 22:43:32 2023 +0700
 
-    Заказ напитка
+    Заказ зерна
 
-commit 31db0577f9fd36bf7f5a44ff98ed9d9a6c5e0fef
+commit 856ab2af1cd4a0207fc3903fcd9c2798c4aae443
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 17:35:42 2023 +0700
+Date:   Tue Oct 31 21:42:48 2023 +0700
 
-    Валидация
+    Холодильник
 
-commit dff3c05ce1dec20f24dd327ae4ba3d47f8e495f3
+commit add0759ea82de4aba560433211a9211d24adfab0
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 01:16:04 2023 +0700
+Date:   Tue Oct 31 21:18:31 2023 +0700
 
-    почти доделала валидацию
+    Авторизация
 
-commit ba80f2482ca057020641836219597791d44967a7
+commit 69cfe30d80ccf761a922bea308f7ad3813779091
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 01:02:22 2023 +0700
+Date:   Tue Oct 31 20:28:30 2023 +0700
 
-    Корректировка пола
+    Заготовка к 4-ой лабораторной
 
-commit 415c9196e9b7097a713de70ae4be02c10f474e3e
+commit 8e2bbd227132f7a3cc40070e28231166cfca497e
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 00:59:29 2023 +0700
+Date:   Tue Oct 31 16:28:29 2023 +0700
 
-    Форма
-
-commit 544cacb7585fa4a96bbc9688ab6346dbc2306253
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Oct 18 00:29:41 2023 +0700
-
-    Заготовка к третьей лабораторной работе
+    абораторная работа 4
