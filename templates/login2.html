@@ -4,7 +4,7 @@
 
 {% block main %}
     <form method="post">
-        <h1>Вход</h1>
+        <h1>Страница входа</h1>
 
         <div>
             <input type="text" name="username" placeholder="username">
@@ -15,7 +15,7 @@
             <input type="text" name="password" placeholder="password">
             <label for="password">Пароль</label>
         </div>
-        <br><span class="error" style="color: rgb(192, 18, 18);">{{errors}}</span><br>
+        <br><span class="error" style="color: tomato;">{{errors}}</span><br>
 
         <button type="submit">Войти</button>
 

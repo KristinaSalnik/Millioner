@@ -9,7 +9,7 @@ def dBConnect():
         host="127.0.0.1",
         database="Knowledge_base_for_Kris",
         user="Kristina_knowledge_base",
-        password="123"
+        password = "123"
 )
 
     return conn;
@@ -27,9 +27,9 @@ def main():
         host="127.0.0.1",
         database="Knowledge_base_for_Kris",
         user="Kristina_knowledge_base",
-        password="123"
+        password = "123"
 )
-    # Получаем курсор. С помощью него мы можем выполнять SQL-запросы
+       # Получаем курсор. С помощью него мы можем выполнять SQL-запросы
     cur = conn.cursor()
     # Пишем запрос, который курсор должен выполнить
     cur.execute("SELECT * FROM users;")
@@ -52,7 +52,7 @@ def user():
         host="127.0.0.1",
         database="Knowledge_base_for_Kris",
         user="Kristina_knowledge_base",
-        password="123"
+        password = "123"
     )
     cur = conn.cursor() #создает курсор, привязанный к соединению (conn), которое уже было установлено с базой данных 
     cur.execute("SELECT * FROM users;")
@@ -126,7 +126,6 @@ def loginPage():
         session['id'] = userID
         session['username'] = username
         conn.close()  # Закрытие соединения
-        #зддесь не возвращает lab5
         return redirect("/lab5/")
     else:
         errors.append("Неправильный логин или пароль")
