@@ -1,35 +1,23 @@
-commit 160db04371db2604ec371090320c315b33e08962
+commit af635258b5c66098094d730accf3b25c13e5d611
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 23:36:30 2023 +0700
+Date:   Wed Nov 29 01:41:35 2023 +0700
 
-    Фон и размер и цвет текста
+    Вывод пользователей
 
-commit 7d7d2f14c4cfa19abf7474dc51aafba7bd9249d5
+commit c44a178ed60a6cd52b1e3e8c11745731a70bd0a6
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 22:43:32 2023 +0700
+Date:   Wed Nov 15 23:09:55 2023 +0700
 
-    Заказ зерна
+    сделано почти всё, но не получается сохранять новых пользователей
 
-commit 856ab2af1cd4a0207fc3903fcd9c2798c4aae443
+commit 54203db63695a41dcce1070275236a9105958eb1
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 21:42:48 2023 +0700
+Date:   Tue Nov 14 20:17:12 2023 +0700
 
-    Холодильник
+    Вывод пользователей,почти
 
-commit add0759ea82de4aba560433211a9211d24adfab0
+commit f798dc4743f12e72164dc18e56b33cd5260b386f
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 21:18:31 2023 +0700
+Date:   Wed Nov 1 16:38:39 2023 +0700
 
-    Авторизация
-
-commit 69cfe30d80ccf761a922bea308f7ad3813779091
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 20:28:30 2023 +0700
-
-    Заготовка к 4-ой лабораторной
-
-commit 8e2bbd227132f7a3cc40070e28231166cfca497e
-Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Oct 31 16:28:29 2023 +0700
-
-    абораторная работа 4
+    Лабораторная 5
