@@ -1,4 +1,5 @@
-from flask import Flask, redirect, url_for, render_template
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 from lab1 import lab1
 from lab2 import lab2
 from lab3 import lab3
@@ -12,15 +13,16 @@ from flask_login import LoginManager
 
 app = Flask(__name__)
 app.secret_key = '123'
-user_db = 'Knowledge_base_for_Kris_orm'
+user_db = 'kris_knowledge_base_orm'
 host_ip = '127.0.0.1'
-host_port = '543'
+host_port = '5432'
 database_name = 'knowledge_base_orm'
 password = '123'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{user_db}:{password}@{host_ip}:{host_port}/{database_name}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
+
 
 login_manager = LoginManager()
 login_manager.login_view = 'lab6.login'
@@ -30,20 +32,12 @@ login_manager.init_app(app)
 def load_users(user_id):
     return users.query.get(int(user_id))
 
-
-app = Flask(__name__)
-app.secret_key='123'
 app.register_blueprint(lab1)
 app.register_blueprint(lab2)
 app.register_blueprint(lab3)
 app.register_blueprint(lab4)
 app.register_blueprint(lab5)
 app.register_blueprint(lab6)
-
-
-
-
-
 
 
 @app.route('/lab2/example')
