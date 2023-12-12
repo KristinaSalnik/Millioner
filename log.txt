@@ -1,23 +1,23 @@
-commit af635258b5c66098094d730accf3b25c13e5d611
+commit dd8788d241a7d7dea84c8c2725de38019a62309d
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Nov 29 01:41:35 2023 +0700
+Date:   Tue Dec 12 15:59:13 2023 +0700
 
-    Вывод пользователей
+    лабораторная 6 закончена
 
-commit c44a178ed60a6cd52b1e3e8c11745731a70bd0a6
+commit 30212e3c01e663cbbe3fe645078889b51378951c
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Nov 15 23:09:55 2023 +0700
+Date:   Mon Dec 11 16:54:08 2023 +0700
 
-    сделано почти всё, но не получается сохранять новых пользователей
+    лаба6 доделать, ошибка в артиклес
 
-commit 54203db63695a41dcce1070275236a9105958eb1
+commit 96cd50260e7531cc682c4892390b2f3f0f01bd38
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Nov 14 20:17:12 2023 +0700
+Date:   Wed Nov 29 13:21:27 2023 +0700
 
-    Вывод пользователей,почти
+    Закончила с txt
 
-commit f798dc4743f12e72164dc18e56b33cd5260b386f
+commit 4f6fe9dfaa36812ba1e6d69336e637e90ce5a9ef
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Nov 1 16:38:39 2023 +0700
+Date:   Wed Nov 29 12:57:05 2023 +0700
 
-    Лабораторная 5
+    Лабораторная работа 6
