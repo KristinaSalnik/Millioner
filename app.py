@@ -23,7 +23,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{user_db}:{password}@{hos
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 
-
 login_manager = LoginManager()
 login_manager.login_view = 'lab6.login'
 login_manager.init_app(app)
