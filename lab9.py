@@ -39,3 +39,4 @@ def internal_server_error(e):
 def trigger_error():
     # ошибка сервера- генерация
     1/0
+    d5bf45a

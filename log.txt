@@ -1,23 +1,77 @@
-commit dd8788d241a7d7dea84c8c2725de38019a62309d
+commit 114a68b80f8ce4b3c1df72ea3cfa4c1ee20d5abd
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Tue Dec 12 15:59:13 2023 +0700
+Date:   Wed Dec 20 12:10:58 2023 +0700
 
-    лабораторная 6 закончена
+    ошибка 500
 
-commit 30212e3c01e663cbbe3fe645078889b51378951c
+commit 878d0090d3fba4d8032b27504d17fd33ec71511d
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Mon Dec 11 16:54:08 2023 +0700
+Date:   Wed Dec 20 11:54:33 2023 +0700
 
-    лаба6 доделать, ошибка в артиклес
+    бработчик ошибки 404
 
-commit 96cd50260e7531cc682c4892390b2f3f0f01bd38
+commit 457337eb5e0c19218a34c2a219b54f4ec69570c0
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Nov 29 13:21:27 2023 +0700
+Date:   Wed Dec 20 11:50:01 2023 +0700
 
-    Закончила с txt
+    аготовка к 9-ой лабораторной
 
-commit 4f6fe9dfaa36812ba1e6d69336e637e90ce5a9ef
+commit 4234567ce462d4bed51c72ff636dc6c6e3e35c80
 Author: Кристина Сальник <salnikkristina@yandex.ru>
-Date:   Wed Nov 29 12:57:05 2023 +0700
+Date:   Wed Dec 20 11:44:49 2023 +0700
 
-    Лабораторная работа 6
+    Лабораторная работа 9
+
+commit 5109f8f71aeedbfb3212172b32cc5d79e6eca04b
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Tue Dec 19 22:03:36 2023 +0700
+
+    last
+
+commit c8512397c59767c3a0aab1c8546b0e99715a8171
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Tue Dec 19 22:01:27 2023 +0700
+
+    удаление
+
+commit 11ec4bdbe5c90245c83ca1f7f0aa8d634bdf8c9c
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Tue Dec 19 21:55:03 2023 +0700
+
+    laba8
+
+commit 7d1038956b9d89c67c2e93c94ecf7cb616026d23
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Tue Dec 19 19:41:21 2023 +0700
+
+    Лабораторная работа 8
+
+commit 9f89bb2191b9ca9e2b0f9f70b8b641e4bb5f1e80
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Wed Dec 13 17:58:52 2023 +0700
+
+    ggg
+
+commit db7338994a27c00c3fd3145de08f17e42572daf4
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Wed Dec 13 17:34:14 2023 +0700
+
+    ggg
+
+commit 3227140f02625c67dfb09fffa7b5ff11450681e8
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Wed Dec 13 01:08:53 2023 +0700
+
+    правки в 7 лаб
+
+commit 82dca190d9d71d3543e79a65a6e68d2f0926d3a5
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Wed Dec 13 00:56:34 2023 +0700
+
+    Оплата напиткa
+
+commit d5bf45aa6fc5e717275f54a737c0780058d07d79
+Author: Кристина Сальник <salnikkristina@yandex.ru>
+Date:   Wed Dec 13 00:31:57 2023 +0700
+
+    Лабораторная работа 7
