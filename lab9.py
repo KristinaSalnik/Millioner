@@ -23,19 +23,19 @@ def card():
     return render_template('lab9/card.html', sender_name=sender_name, recipient_gender=recipient_gender, recipient_name=recipient_name)
 
 
-
+# вызываем ошибку 404
 @lab9.app_errorhandler(404)
 def not_found(e):
     return render_template('lab9/error.html'), 404
 
 
-# Обработчик ошибки 500
+# вызываем ошибку 500
 @lab9.app_errorhandler(500)
 def internal_server_error(e):
     return render_template('lab9/error500.html'), 500
 
-# Роут, вызывающий ошибку 500
+# роут, который вызывает ошибку 500
 @lab9.route('/lab9/500')
 def trigger_error():
-    # Генерируем ошибку сервера
+    # ошибка сервера- генерация
     1/0
